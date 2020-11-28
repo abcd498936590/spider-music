@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>蓝水晶音乐播放器</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link href="css/bootstrap-3.3.7.min.css" rel="stylesheet"> -->
+    <style>
+        .list-box{width: 400px;position: absolute;left: 0;top: 0;bottom: 0;background-color: rgba(255,255,255,0.5);overflow-x: hidden;overflow-y: auto;}
+        .list_item{cursor: pointer;height: 30px;line-height: 30px;text-align: left;text-indent: 5px;border-bottom: 1px solid #cdcdcd;color: #000;background-color: rgba(0,0,0,0);transition: all .5s;}
+        .list_item:hover{background-color: rgba(0,0,0,0.2);}
+        .text-ellipsis{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+        #cvs{width: 100%;height: 100%;}
+    </style>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/vue-2.6.9.min.js"></script>
+</head>
+<body>
+    <div class="bo">
+        <div class="maxsize">
+            <center class="bo1">
+                <div id="player">
+                    <div class="cover"></div>
+                    <div class="ctrl">
+                        <div class="tag"> <strong>Title</strong> <span class="artist">Artist</span> <span class="album">Album</span> </div>
+                        <div class="control">
+                            <div class="left">
+                                <div class="rewind icon"></div>
+                                <div class="playback icon"></div>
+                                <div class="fastforward icon"></div>
+                            </div>
+                            <div class="volume right">
+                                <div class="mute icon left"></div>
+                                <div class="slider left">
+                                    <div class="pace"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="slider">
+                                <div class="loaded"></div>
+                                <div class="pace"></div>
+                            </div>
+                            <div class="timer left">0:00</div>
+                            <div class="right">
+                                <div class="repeat icon"></div>
+                                <div class="shuffle icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <div id="player-list"></div>
+    </div>
+    <script src="js/jquery-ui-1.8.17.custom.min.js"></script>
+    <script src="js/vue-2.6.9.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/player.js"></script>
+</body>
+</html>
