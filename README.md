@@ -5,7 +5,7 @@
 > 本项目仅供学习参考，请勿用于任何商业、非法用途。由此带来的法律责任，本人概不承担！
 
 <p align="center">
-    <img width="380" src="https://cdn.jsdelivr.net/gh/abcd498936590/pic@master/img/spider-music.png" />
+    <img src="https://cdn.jsdelivr.net/gh/abcd498936590/pic@master/img/spider-music.png" />
 </p>
 
 ## 文件说明
