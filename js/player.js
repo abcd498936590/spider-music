@@ -54,14 +54,15 @@
 		}
 	});
 
+    var volume = localStorage.volume || 0.5;
 	// Volume slider
 	var setVolume = function (value) {
-		audio.volume = localStorage.volume = value;
+		audio.volume = volume = localStorage.volume = value;
 		$('.volume .pace').css('width', value * 100 + '%');
 		$('.volume .slider a').css('left', value * 100 + '%');
 	};
 
-	var volume = localStorage.volume || 0.5;
+	
 	$('.volume .slider').slider({
 		max: 1,
 		min: 0,
@@ -147,9 +148,9 @@
 		var item = playlist[i],
 			newaudio = $('<audio>').html('<source src="' + item.mp3 + '"><source src="' + item.ogg + '">').appendTo('#player');
 
-		$('.tag').html('<strong>' + item.title + '</strong><span class="artist">' + item.artist + '</span><span class="album">' + item.album + '</span>');
+		$('.tag').html('<strong  class="m_title">' + item.title + '</strong><span class="artist">' + item.artist + '</span>');
 		audio = newaudio[0];
-		audio.volume = $('.mute').hasClass('enable') ? 0 : volume;
+		audio.volume = volume;
 		audio.addEventListener('progress', beforeLoad, false);
 		audio.addEventListener('durationchange', beforeLoad, false);
 		audio.addEventListener('canplay', afterLoad, false);

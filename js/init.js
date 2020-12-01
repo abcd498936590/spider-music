@@ -1,4 +1,4 @@
-new Vue({
+﻿new Vue({
 	template: `
 		<div class="list-box">
 			<div v-for="(curType, typeIndex) in p_list">
@@ -17,7 +17,7 @@ new Vue({
 	el: "#player-list",
 	data: function(){
 		return {
-			baseUrl: "/dj.php",
+			baseUrl: "./dj.php",
 			p_list: []
 		}
 	},
