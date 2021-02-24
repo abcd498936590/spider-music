@@ -1,6 +1,14 @@
 # spider-music
 前端vue，采集文件php。你只需申请一个免费php空间，直接就可以部署上去白嫖音乐
 
+## 其他开源项目
+
+* [Dart-Cms](https://github.com/abcd498936590/Dart-Cms)  =>> Dart-Cms完整项目
+* [Dart-Cms-Manage](https://github.com/abcd498936590/Dart-Cms-Manage)   =>> Dart-Cms后台管理系统页面部分
+* [Dart-Cms-Script](https://github.com/abcd498936590/Dart-Cms-Script)  =>> Dart-Cms插件教程，插件使用，插件开发
+* [flutter fijkplayer](https://github.com/abcd498936590/fijkplayer_skin)  =>> Flutter fijkplayer的一款皮肤
+
+
 ## 免责申明
 > 本项目仅供学习参考，请勿用于任何商业、非法用途。由此带来的法律责任，本人概不承担！
 
@@ -9,7 +17,7 @@
 </p>
 
 ## 线上地址
-[DJ音乐在线](http://china123.epizy.com/)
+[DJ音乐在线](http://localxp.coolpage.biz/)
 
 ## 文件说明
 
