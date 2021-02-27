@@ -19,7 +19,7 @@
 </p>
 
 ## 线上地址
-[DJ音乐在线](http://localxp.coolpage.biz/)
+[DJ音乐在线](http://www.cmp5.tk/)
 
 ## 文件说明
 
